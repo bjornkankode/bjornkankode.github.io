@@ -1,0 +1,64 @@
+.innpakning{
+    width:800px;/*Bredden på flexboksen*/
+    background-color:#404040;/*En mørk gråfarge*/
+    margin:auto; /*like høyre og venstremarger*/
+    display:flex; /*lager en flexboks*/
+    flex-direction:column; /*plasserer boksene i en kolonne*/
+    padding-bottom:5px;
+}
+
+.topptekst{
+    height: 120px; 
+    background-color: #909090;
+    padding: 5px;/*indre marg*/
+    margin: 5px; /*ytre marg*/
+}
+
+.meny{
+   background-color: #f04605;
+     padding: 5px;/*indre marg*/
+    margin: 0 5px; /*ytre marg*/
+}
+
+.innhold{
+      background-color: #909090;
+     padding: 5px;/*indre marg*/
+    margin: 5px; /*ytre marg*/ 
+    height:500px;
+}
+
+.bunntekst{
+    height:26px;
+   background-color: #f07090;
+     padding: 5px;/*indre marg*/
+    margin: 0 5px; /*ytre marg*/
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+ul li{
+    display: inline;
+}
+
+
+ul a{
+    width:240px;
+   margin:0px 20px;
+    padding:5px;
+    color:#333333;
+    font-weight:bold;
+    text-decoration: none;
+    background-color:#f04605;
+    
+}
+ul a:hover{
+    background-color:#ebe584;
+}
+
+
+
+
